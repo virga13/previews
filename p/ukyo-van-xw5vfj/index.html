@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ro"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Previzualizare pentru ukyo VAN</title>
+<style>
+:root{--a:#0f766e;--ink:#14201e;--mut:#5b6b68;--bg:#f6f4ef;--card:#fff;--line:#e4e0d6}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+.notice{background:#14201e;color:#e9efe9;font-size:13px;padding:8px 0;text-align:center}
+header.top{padding:48px 0 24px}
+.kicker{color:var(--a);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:12px}
+h1{font-size:clamp(28px,5vw,44px);line-height:1.1;margin:8px 0 12px;letter-spacing:-.02em}
+.lead{color:var(--mut);max-width:640px;margin:0}
+section{padding:28px 0}
+h2{font-size:22px;margin:0 0 16px}
+.grid{display:grid;gap:20px}
+@media(min-width:860px){.grid.two{grid-template-columns:1.4fr 1fr}.grid.demos{grid-template-columns:repeat(auto-fit,minmax(280px,1fr));align-items:start}}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px}
+.score{display:flex;align-items:center;gap:18px;margin-bottom:12px}
+.ring{--p:11;width:84px;height:84px;border-radius:50%;background:conic-gradient(var(--a) calc(var(--p)*1%),#e8e5dc 0);display:grid;place-items:center;flex:none}
+.ring b{background:#fff;width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font-size:20px}
+.checks{list-style:none;padding:0;margin:0;display:grid;gap:6px}
+.checks li{display:flex;gap:10px;align-items:baseline;font-size:15px}
+.checks .ok{color:#15803d}.checks .no{color:#b91c1c}
+.gaps{margin:0;padding-left:18px;color:var(--ink)}.gaps li{margin:6px 0}
+.meter{height:8px;border-radius:8px;background:#e8e5dc;overflow:hidden;margin:6px 0 2px}.meter i{display:block;height:100%;background:#15803d;width:0%}
+.mut{color:var(--mut);font-size:14px}
+figure{margin:0}
+.mock{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 10px 30px -18px rgba(20,32,30,.45)}
+.browser .bar{display:flex;gap:6px;align-items:center;padding:10px 12px;background:#efece4;border-bottom:1px solid var(--line)}
+.browser .bar i{width:10px;height:10px;border-radius:50%;background:#d6d1c4}.browser .bar span{margin-left:10px;font-size:12px;color:var(--mut);background:#fff;border-radius:6px;padding:2px 10px}
+.site .nav{display:flex;justify-content:space-between;gap:12px;padding:14px 20px;font-size:14px;border-bottom:1px solid var(--line)}.site .nav span{color:var(--mut)}
+.site .hero{padding:32px 20px;background:linear-gradient(135deg,color-mix(in srgb,var(--a) 14%,#fff),#fff)}
+.site h3{font-size:clamp(22px,4vw,30px);margin:0 0 8px;line-height:1.15}.site p{margin:0 0 16px;color:var(--mut)}
+.btns{display:flex;gap:10px;flex-wrap:wrap}.btn{display:inline-block;background:var(--a);color:#fff;border-radius:999px;padding:9px 18px;font-weight:600;font-size:14px}.btn.ghost{background:transparent;color:var(--a);border:1.5px solid var(--a)}.btn.wide{display:block;text-align:center;margin:14px 0 6px}
+.rate{margin-top:14px;font-size:14px;color:#a16207}.rate b{color:var(--ink)}
+.tiles{display:grid;gap:1px;background:var(--line)}@media(min-width:600px){.tiles{grid-template-columns:repeat(3,1fr)}}
+.tiles div{background:#fff;padding:16px 18px;display:grid;gap:4px}.tiles span{color:var(--mut);font-size:14px}
+.phone{max-width:300px;margin:0 auto;border-radius:34px;padding:10px;background:#14201e;border:none}
+.phone .screen{background:#fff;border-radius:26px;padding:16px;min-height:360px;font-size:14px}
+.ph-head{display:grid;margin-bottom:12px}.ph-head small{color:var(--mut)}
+.chips,.days,.slots{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.chips span,.days span,.slots span{border:1px solid var(--line);border-radius:999px;padding:4px 10px;font-size:12px}
+.chips .on,.days .on,.slots .on{background:var(--a);border-color:var(--a);color:#fff}
+.item{display:grid;grid-template-columns:44px 1fr auto;gap:10px;align-items:center;padding:8px 0;border-bottom:1px solid #f0ede6}
+.item small{display:block;color:var(--mut)}.item em{color:var(--mut);font-style:normal}
+.thumb{width:44px;height:44px;border-radius:10px;background:repeating-linear-gradient(45deg,#efece4 0 6px,#e6e2d7 6px 12px)}
+.qr-note,.fine{display:block;color:var(--mut);font-size:12px;margin-top:10px;text-align:center}
+.sum{display:flex;justify-content:space-between;margin-top:12px;font-size:13px}.sum b{color:var(--a)}
+.chat{padding:16px;display:grid;gap:8px;margin-top:16px}.chat-head{font-size:12px;color:var(--mut);font-weight:600}
+.chat p{margin:0;padding:8px 12px;border-radius:14px;max-width:85%;font-size:14px}.chat .cl{background:#efece4;justify-self:start}.chat .ai{background:var(--a);color:#fff;justify-self:end}
+.card{padding:20px;display:flex;gap:16px;align-items:center}.card p{margin:4px 0;color:var(--mut);font-size:14px}.card small{color:#a16207}
+.card.list{display:grid;gap:8px}.card.list span{font-size:14px}
+.qr{display:grid;grid-template-columns:repeat(7,10px);gap:2px;flex:none;padding:8px;border:1px solid var(--line);border-radius:8px}.qr i{width:10px;height:10px;background:#f1efe9}.qr .b{background:var(--ink)}
+.offer{background:var(--ink);color:#f4f2ec;border-radius:20px;padding:28px}
+.offer h2{color:#fff}.offer p{color:#cfd8d4;margin:0 0 16px}.offer .price{font-size:28px;font-weight:800;color:#fff}
+.offer .btn{background:#fff;color:var(--ink)}a.btn{text-decoration:none}.offer .price{font-size:clamp(20px,4vw,28px)}
+.contact{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+footer{padding:32px 0 48px;color:var(--mut);font-size:13px}
+</style></head>
+<body>
+<div class="notice">Concept demonstrativ realizat de Raul Gocan pentru ukyo VAN. Nu este un site oficial și nu este afiliat cu afacerea.</div>
+<div class="wrap">
+<header class="top">
+  <div class="kicker">Previzualizare pregătită pentru ukyo VAN</div>
+  <h1>Cum ar putea arăta ukyo VAN online</h1>
+  <p class="lead">Ukyo VAN, Strada Alexandru Vaida Voevod 55, Cluj-Napoca.</p>
+</header>
+
+<section>
+  <div class="grid two">
+    <div class="panel">
+      <h2>Ce am observat</h2>
+      <div class="score"><div class="ring"><b>1/9</b></div><div><b>Scor prezență digitală</b><div class="mut">1 din 9 verificări trecute</div></div></div>
+      <ul class="checks"><li><span class="no">✗</span>Website propriu</li><li><span class="no">✗</span>Conexiune securizată (HTTPS)</li><li><span class="no">✗</span>Adaptat pentru telefon</li><li><span class="ok">✓</span>Program afișat pe Google</li><li><span class="no">✗</span>Meniu digital</li><li><span class="no">✗</span>Comenzi online proprii</li><li><span class="no">✗</span>Chat sau WhatsApp pe site</li><li><span class="no">✗</span>Măsurarea vizitatorilor</li><li><span class="no">✗</span>Rețele sociale legate de site</li></ul>
+    </div>
+    <div class="panel">
+      <h2>Unde pierdeți clienți</h2>
+      <ol class="gaps"><li>Nu are website listat pe Google</li><li>Rating Google 3.9 din 178 recenzii</li><li>Nu are meniu online</li><li>Sub jumătate din recenziile tipice în zonă (mediană 395)</li><li>Livrare/take-away fără comenzi online proprii</li></ol>
+      
+      <p class="mut" style="margin-top:12px">Google: 3.9 ★ din 178 recenzii</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>O privire în avans</h2>
+  <div class="grid demos"><div>
+  <figure class="mock browser" aria-label="Concept website">
+    <div class="bar"><i></i><i></i><i></i><span>ukyo-van.ro</span></div>
+    <div class="site">
+      <div class="nav"><b>ukyo VAN</b><span>Despre · Servicii · Contact</span></div>
+      <div class="hero">
+        <h3>Descoperiți Ukyo VAN online.</h3>
+        <p>Vă prezentăm o previzualizare a site-ului web propus pentru cafeneaua dumneavoastră.</p>
+        <div class="btns"><span class="btn">Solicitați acum un audit digital gratuit (PDF, 1 pagină) și o discuție de 15 minute.</span><span class="btn ghost">Sună</span></div>
+        <div class="rate">★★★★☆ <b>3.9</b> din 178 recenzii Google</div>
+      </div>
+      <div class="tiles"><div><b>Website de prezentare</b><span>Design optimizat pentru dispozitive mobile și pregătit pentru motoarele de căutare.</span></div><div><b>Meniu digital QR</b><span>Accesibil în mai multe limbi.</span></div><div><b>Management recenzii Google</b><span>Asistență pentru gestionarea recenziilor Google.</span></div></div>
+    </div>
+  </figure></div><div>
+  <figure class="mock card" aria-label="Concept card recenzii">
+    <div class="qr" aria-hidden="true"><i class="b"></i><i class=""></i><i class=""></i><i class="b"></i><i class="b"></i><i class=""></i><i class=""></i><i class="b"></i><i class="b"></i><i class=""></i><i class=""></i><i class="b"></i><i class="b"></i><i class=""></i><i class=""></i><i class="b"></i><i class="b"></i><i class=""></i><i class=""></i><i class="b"></i><i class="b"></i><i class=""></i><i class=""></i><i class="b"></i><i class="b"></i><i class=""></i><i class=""></i><i class="b"></i><i class="b"></i><i class=""></i><i class=""></i><i class="b"></i><i class="b"></i><i class=""></i><i class=""></i><i class="b"></i><i class="b"></i><i class=""></i><i class=""></i><i class="b"></i><i class="b"></i><i class=""></i><i class=""></i><i class="b"></i><i class="b"></i><i class=""></i><i class=""></i><i class="b"></i><i class="b"></i></div>
+    <div><b>V-a plăcut la ukyo VAN?</b><p>Scanați și lăsați-ne o recenzie în 20 de secunde.</p><small>Acum: 3.9 ★ din 178 recenzii</small></div>
+  </figure></div><div>
+  <figure class="mock phone" aria-label="Concept meniu digital">
+    <div class="screen">
+      <div class="ph-head"><b>ukyo VAN</b><small>Meniu · RO / EN</small></div>
+      <div class="chips"><span class="on">Cafea</span><span class="">Băuturi reci</span><span class="">Deserturi</span><span class="">Mic dejun</span></div>
+      <div class="item"><div class="thumb"></div><div><b>Produs exemplu 1</b><small>descriere scurtă</small></div><em>— lei</em></div><div class="item"><div class="thumb"></div><div><b>Produs exemplu 2</b><small>descriere scurtă</small></div><em>— lei</em></div><div class="item"><div class="thumb"></div><div><b>Produs exemplu 3</b><small>descriere scurtă</small></div><em>— lei</em></div><div class="item"><div class="thumb"></div><div><b>Produs exemplu 4</b><small>descriere scurtă</small></div><em>— lei</em></div>
+      <div class="qr-note">Clientul scanează codul QR de pe masă</div>
+    </div>
+  </figure></div></div>
+  <p class="mut" style="margin-top:12px">Imagini orientative. Conținutul final (texte, fotografii, prețuri) se face împreună cu dumneavoastră.</p>
+</section>
+
+<section>
+  <div class="offer">
+    <h2>Primul pas, fără risc</h2>
+    <p>Un audit digital gratuit vă poate oferi o imagine clară asupra punctelor forte și a zonelor de îmbunătățire. Vă putem ajuta să vă creșteți vizibilitatea online.</p>
+    <div class="price">Audit digital gratuit (PDF, 1 pagină) + 15 min discuție</div>
+    <div class="contact">
+      <a class="btn" href="mailto:raul.s.gocan@gmail.com?subject=Previzualizare%20ukyo%20VAN">Răspundeți pe email</a>
+      
+      
+    </div>
+  </div>
+</section>
+
+<footer>
+  Raul Gocan · raul.s.gocan@gmail.com<br>
+  Analiză bazată pe date publice (Google Maps, website-ul afacerii, Google PageSpeed). Dacă doriți să ștergem această pagină, scrieți-ne și o eliminăm în 24 de ore.
+</footer>
+</div>
+</body></html>
